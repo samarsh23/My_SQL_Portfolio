@@ -1,10 +1,14 @@
+/*Challenge: Book list database
+Step 1
+Create a table to store a list of books. It should have columns for id, name, and rating. 
+Add three of your favorite books into the table.*/
+
 /** FavoriteBooks:
 Percy Jackson (2);
 Wild Things (1);
 Cinderella (4);
 The Window (3);
 **/
-Creating book list database that rates favorite books
 
 CREATE TABLE FavoriteBooks (id INTEGER PRIMARY KEY, name TEXT, rating INTEGER); 
 
