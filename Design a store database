@@ -1,0 +1,29 @@
+/*Create your own store! Your store should sell one type of things, like clothing or bikes, whatever you want
+ store to specialize in. You should have a table for all the items in your store, and at least 5 columns 
+ for the kind of data you think you'd need to store. You should sell at least 15 items, and use select 
+ statements to order your items by price and show at least one statistic about the items.*/
+
+/** My_Store:
+Bangles
+Hoop earrings
+Stud earrings
+Engagement ring
+Promise ring
+Thin Necklace
+Fashion Ring
+Bracelet
+Choker
+Anklet
+Cuffs
+Thick Necklace
+Dangle Earrings
+Gauges
+Plugs
+**/
+
+CREATE TABLE My_Store (id INTEGER PRIMARY KEY, name TEXT, price INTEGER, quantity INTEGER, purchased_this_month INTEGER);
+INSERT INTO My_Store VALUES (1, "Bangles", 15, 200, 20);
+INSERT INTO My_Store VALUES (2, "Hoop Earrings", 25, 100, 50);
+INSERT INTO My_Store VALUES (3, "Stud Earrings", 10, 500, 100);
+INSERT INTO My_Store VALUES (4, "Engagement Ring", 1000, 200, 50);
+SELECT * FROM My_Store ORDER BY price; 
